@@ -1,27 +1,23 @@
 {
-  "name": "serverless-plugin-kms",
-  "version": "1.0.0",
-  "description": "Serverless plugin that decrypts environment variables before deployment",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/ConnectedHomes/serverless-plugin-kms.git"
-  },
-  "keywords": [
-    "serverless",
-    "plugin",
-    "kms",
-    "encryption",
-    "environment",
-    "decryption"
-  ],
-  "author": "ConnectedHomes",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/ConnectedHomes/serverless-plugin-kms/issues"
-  },
-  "homepage": "https://github.com/ConnectedHomes/serverless-plugin-kms#readme"
+    "name": "@connected-home/serverless-plugin-kms",
+    "version": "1.0.1",
+    "description": "Serverless plugin that decrypts environment variables before deployment",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/ConnectedHomes/serverless-plugin-kms.git"
+    },
+    "keywords": ["serverless", "plugin", "kms", "encryption", "decryption", "env", "environment", "variables"],
+    "author": "",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/ConnectedHomes/serverless-plugin-kms/issues"
+    },
+    "homepage": "https://github.com/ConnectedHomes/serverless-plugin-kms#readme",
+    "dependencies": {
+        "aws-sdk": "^2.188.0"
+    }
 }
