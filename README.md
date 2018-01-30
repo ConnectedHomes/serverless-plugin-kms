@@ -1,5 +1,5 @@
 # serverless-plugin-kms
-This serverless plugin is used when you need to store your sensitive environment variables in your codebase. You can simply
+This serverless plugin is used when you need to store your sensitive environment variables in your codebase.
 
 ## Why this approach
 We prefer saving all config into repos so that we never have to handle git-ignored `.env` files that live on someone's machine. Checking sensitive data (such as API keys and OAuth tokens) into github is obviously not safe; that's why we encrypt everything first. Then we just add it to config a check it into upstream repo so that the data is never lost.
