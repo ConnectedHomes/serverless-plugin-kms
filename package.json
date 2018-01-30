@@ -11,7 +11,8 @@
         "url": "git+https://github.com/ConnectedHomes/serverless-plugin-kms.git"
     },
     "keywords": ["serverless", "plugin", "kms", "encryption", "decryption", "env", "environment", "variables"],
-    "author": "",
+    "author": "Peter Bevan",
+    "contributors": ["Anna Doubkova"],
     "license": "MIT",
     "bugs": {
         "url": "https://github.com/ConnectedHomes/serverless-plugin-kms/issues"
