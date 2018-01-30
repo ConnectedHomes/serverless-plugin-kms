@@ -28,7 +28,7 @@ The plugin will translate this before deployment to:
 }
 ```
 
-##Roadmap
+## Roadmap
 - try it out with yaml defined environment variables
 - allow specifying KMS key and its region
 - add CLI tool to encrypt and decrypt keys on the fly
