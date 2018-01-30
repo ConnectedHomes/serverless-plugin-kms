@@ -4,6 +4,8 @@ This serverless plugin is used when you need to store your sensitive environment
 ## Why this approach
 We prefer saving all config into repos so that we never have to handle git-ignored `.env` files that live on someone's machine. Checking sensitive data (such as API keys and OAuth tokens) into github is obviously not safe; that's why we encrypt everything first. Then we just add it to config a check it into upstream repo so that the data is never lost.
 
+Big shout-out to [beavis07](https://github.com/beavis07) for this solution.
+
 ## How to use it
 First, encrypt a variable with your `us-east-1` KMS key. Then add the value to your serverless environment; the plugin does the rest.
 
