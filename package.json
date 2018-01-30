@@ -1,6 +1,6 @@
 {
     "name": "@connected-home/serverless-plugin-kms",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "description": "Serverless plugin that decrypts environment variables before deployment",
     "main": "index.js",
     "scripts": {
